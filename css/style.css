@@ -1846,6 +1846,18 @@ body.preloader_active {
     font-size: 10px;
     font-weight: 300;
 }
+.blog_main_content aside .widget ul li span {
+    display: block;
+    color: #b4b4b4;
+    font-size: 10px;
+    font-weight: 300;
+}
+.blog_main_content aside .widget ul li p {
+    /* text-transform: none; */
+    font-family: 'Roboto';
+    font-size: 14px;
+    /* font-weight: 500; */
+}
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
     background-color: #ff5252;
     border-color: #ff5252;
