@@ -1826,13 +1826,16 @@ body.preloader_active {
     font-size: 14px;
     font-weight: 700;
 }
-.blog_main_content aside .widget ul li:hover h6 {
+.blog_main_content aside .widget ul li a:hover h6 {
     color: #29b0f5;
     text-decoration: underline;
 }
 .blog_main_content aside .widget ul li:last-child {
     border-bottom: 0;
     padding-bottom: 0;
+}
+.blog_main_content aside .widget ul li {
+    color: #212121;
 }
 .blog_main_content aside .widget ul li a {
     color: #212121;
