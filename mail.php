@@ -19,10 +19,10 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "crazycafe.net@gmail.com";    // Replace the email address with your email where you want to send message.
+        $recipient = "rykerson@gmail.com";    // Replace the email address with your email where you want to send message.
 
         // Set the email subject.
-        $subject = "Message from Mat by $name";
+        $subject = "Message from portfolio website by $name";
 
         // Build the email content.
         $email_content = "$name sent a message!\n\n";
@@ -31,7 +31,7 @@
         $email_content .= "Message: $msg \n\n";
 
         // Build the email headers.
-        $email_headers = "From: Mat Template\r\n";
+        $email_headers = "From: Resume website\r\n";
         $email_headers = "Reply-To: ".$name." <".$email.">\r\n";
 
         // Send the email.
