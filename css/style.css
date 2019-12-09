@@ -646,7 +646,7 @@ ul.sub-menu li {
     font-weight: 300;
 }
 .hero_area_scroll_down {
-    right: 0;
+    right: calc(50% - 45px);
     width: 45px;
     height: 45px;
     box-shadow: 0 0 8px 0 rgba(0,0,0,.10);
