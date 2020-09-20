@@ -25,7 +25,11 @@
         </div>
 
         <div class="widget copyrigt">
-          <p>Jesse Rykerson <br />Rykode Web Development</p>
+          <p>
+            &#169;
+            <time id="current_year"></time>
+            Jesse Rykerson <br />Rykode Web Development
+          </p>
         </div>
       </div>
       <!-- /* col-md-12 end */ -->
@@ -34,3 +38,7 @@
   </div>
   <!-- /* container end */ -->
 </footer>
+
+<script>
+  document.getElementById('current_year').innerHTML = new Date().getFullYear()
+</script>
